@@ -31,5 +31,9 @@ module Educator
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    I18n.available_locales = [:en, :de]
+    config.time_zone = 'Berlin' # set default time zone to "Moscow" (UTC +4)
+    config.i18n.default_locale = :de # set default locale to Russian
   end
 end

@@ -1,0 +1,24 @@
+de:
+  activerecord:
+   attributes:
+     article:
+       title: "Eins"
+       body: "Weihnachten"
+  forms:
+    messages:
+      success: "Mein Löffel ist zu groß!"
+    buttons:
+     edit: "Flughafen"
+     submit: "Zechs"
+  menu:
+    new_article: "Ich brauche mehr Bier!"
+  articles:
+    index:
+      title: "Was brauchen wir"
+      count:
+        one: "%{count} artikel"
+        other: "%{count} artikels"
+    edit:
+      title: "Mir so wichtig wie mein eigenes"
+    new:
+      title: "Du bist tot"
